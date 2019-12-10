@@ -1,0 +1,28 @@
+{
+  "name": "gestor-envios",
+  "version": "1.0.0",
+  "description": "first version app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e hbs,js,css app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naggas07/gestor-envios.git"
+  },
+  "author": "Naggas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naggas07/gestor-envios/issues"
+  },
+  "homepage": "https://github.com/Naggas07/gestor-envios#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "connect-mongodb": "^1.1.5",
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "mongoose": "^5.8.0",
+    "morgan": "^1.9.1"
+  }
+}
